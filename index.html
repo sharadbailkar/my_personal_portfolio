@@ -464,8 +464,9 @@
             padding: 2rem;
             margin: 2rem;
             margin-bottom: 4rem;
-            border-style: dotted;
-            border-radius:5px;
+            border-style:groove;
+            border-color: var(--yellow);
+            border-radius: 10px;
         }
 
         .contact .row form .box {
@@ -476,10 +477,17 @@
             text-transform: none;
             font-size: 1.7rem;
             width: 100%;
-            border: thick;
             border-radius: 5px;
 
 
+        }
+        .contact .row h2{
+            text-align-last: center;
+            text-transform: uppercase;
+            color: #fff;
+            font-size: 3rem;
+            padding-bottom: 2rem;
+            
         }
 
         .contact .row form .box::placeholder {
@@ -849,7 +857,8 @@
             </div>
 
             <form action="">
-
+                
+                <h2> <i class="fa-solid fa-comment"></i> ASK ME</h2>
                 <input type="text" name="Name" placeholder="Name" class="box">
                 <input type="email" name="Email" placeholder="Email" class="box">
                 <input type="text" name="Contact_No" placeholder="Contact No." class="box">
